@@ -1,0 +1,231 @@
+/* Import Font link */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Slab&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F8FA;
+    font-family: 'Roboto Slab', serif;
+}
+.container {
+    padding: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #E0E6EA;
+}
+.nav-logo {
+    width: 200px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-link, .nav-btn {
+    list-style-type: none;
+}
+.nav-link a {
+    color: #1D2C3C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.01px;
+    text-decoration: none;
+}
+.nav-btn button {
+    color: #1D2C3C;
+    border: 2px solid #1D2C3C;
+    border-radius: 6px;
+    background: inherit;
+    padding: 10px 15px;
+}
+/* Main */
+.main { 
+    display: flex;
+    margin:25px auto;
+    width: 660px;
+    height: 520px;
+    border-radius: 6px;
+    background: #FFF;
+    border-radius: 0px 6px 6px 0px;
+    background: #1179BF;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+    box-sizing: border-box;
+}
+/* White Section */
+.white-section {
+    background: #FFF;
+    width: 65%;
+    height: 100%;
+}
+.circle {
+    border: 2px solid #1179BF;
+    border-radius: 50%;
+    color: #1179BF;
+    padding: 2px 6px;
+    margin-right: 5px;
+}
+.center {
+    margin: 10px auto;
+}
+.checkout-div {
+    padding: 0 20px;
+    height: 10%;
+    border-bottom: 2px solid #F5F8FA;
+}
+.checkout-div h1 {
+    color: #1D2C3C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.basic-info {
+    height: 30%;
+    border-bottom: 2px solid #F5F8FA;
+    padding: 0px 20px;
+}
+.flex-form {
+    display: flex;
+    gap: 25px;
+}
+label {
+    color: #1D2C3C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 2px 0;
+
+}
+.flex-form label {
+    width: calc(50% - 20px);
+    display: block;
+}
+.email {
+    width: 70%;
+    display: block;
+}
+input {
+    width: 100%;
+    height: 20px;
+    display: block;
+    padding: 3px 6px;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
+    background: #EDEFF2;
+}
+.payment-info {
+    padding: 0 20px;
+    height: 23%;
+    border-bottom: 2px solid #F5F8FA;
+}
+.flex-no-pd{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+.flex-no-pd input{ 
+    border-radius: 0;
+}
+#card-no {
+    width: 55%;
+}
+#card-exp {
+    width: 25%;
+    text-align: right;
+}
+#card-cvv {
+    width: 15%;
+}
+.btn-info {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.btn-info button {
+    color: #FFF;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #038E7D;
+}
+.btn-info p {
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 4px;
+}
+.bold {
+    font-weight: 700;
+}
+/* Side */
+.side {
+    color: #fff;
+    width: 35%;
+    font-size: 10px;
+    padding: 20px ;
+    font-family: 'Lato', sans-serif;
+}
+.side h5 {
+    font-weight: 600;
+    font-size: 14px;
+}
+.flex {
+    display: flex;
+    align-items: end;
+}
+.amt-dollar {
+    display: flex;
+    align-items: start;
+    line-height: 40px;
+}
+.dollar {
+    font-size: 15px;
+    font-weight: lighter;
+}
+.amount {
+    font-size: 40px;
+}
+.side ul {
+    margin: 30px 0;
+    padding: 0;
+}
+.side ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    line-height: 12px;
+}
+.client{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.side a{
+    color: #fff;
+    line-height: 18px;
+}
+.slant {
+    font-style: italic;
+}
+.side img {
+    width: 30px;
+    border-radius: 50%;
+}
+hr {
+    opacity: 0.3;
+}
